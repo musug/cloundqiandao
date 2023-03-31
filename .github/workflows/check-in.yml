@@ -29,6 +29,9 @@ jobs:
         user='${{ secrets.USER }}'
         pwd='${{ secrets.PWD }}'
         
+        echo $user
+        echo $pwd
+
         user_list=()
         pwd_list=()
         IFS=","
